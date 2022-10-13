@@ -1,0 +1,216 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Formularios</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Etiquetas de formulario</h1>
+&nbsp;</header>
+<nav>
+  <ul id="marcador_interno">
+	<li> <a href="../index.html"> Inicio</a></li>  
+    <li> <a href="mi_primera_pag_formatos.html"> Formato de texto</a></li>
+    <li> <a href="Listas.html">Listas</a></li>
+	<li> <a href="enlaces.html">Enlaces</a></li>
+    <li> <a href="tablas.html"> Tablas</a></li>
+    <li> <a href="imagenes.html">Imagenes</a></li>
+	<li> <a href= "Untitled-2.html">Audio</a></li>
+	<li> <a href="video.html">Video</a></li>
+	<li> <a href="Formularios.html">Formularios</a></li>
+	
+	
+	  
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario con input de tipo texto y submit</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam nesciunt tempore officiis ullam, quae, vero natus fuga ab, fugiat eligendi incidunt sunt porro asperiores. A dicta omnis vero rerum et iusto hic aspernatur numquam sed debitis, nobis, molestias. Facere expedita libero reiciendis excepturi, incidunt quia molestias vero a eaque commodi.</p>
+    <form id="form1" name="form1" method="post">
+      <label for="textfield2" id="nombre">Nombre:<br>
+      </label>
+      <input type="text" name="textfield" id="textfield">
+      <label for="textfield2">Apellido:</label>
+      <input type="text" name="textfield2" id="textfield2">
+      <input name="button" type="button" class="btt" value="Enviar">
+      &nbsp;
+    </form>
+    
+ 	
+  </section>
+  <section>
+    <h2>Formulario con select desplegable (select)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat deleniti fuga consequatur architecto harum aut quam, rerum nam non suscipit molestias eius enim voluptas, libero vero laboriosam asperiores perspiciatis modi!</p>
+    <form action="../procesamiento.html"  name="form2" method="get">
+      <label for="pais">Pais:</label>
+      <select name="pais" id="select">
+        <option value="mx">México</option>
+        <option value="es">España</option>
+        <option value="us">Estados Unidos</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+      </select>
+		
+		<br><br>
+	
+	<label>Género</label>
+	
+      <p>
+        <label>
+          <input type="radio" name="G&eacute;nero" value="fem" id="Geacutenero_0">
+          Femenino</label>
+		  
+		  <br>
+       
+        <label>
+          <input type="radio" name="G&eacute;nero" value="mas" id="Geacutenero_1">
+          Masculno</label>
+		  
+		  <br>
+		  
+		 <label>
+          <input type="radio" name="G&eacute;nero" value="mas" id="Geacutenero_1">
+          Otro</label>
+        
+      </p>
+		
+	<label>Musica preferida</label>
+		<br>
+		<br>
+	<table width="200">
+	<tr> 
+		<td> <label>
+		<input type="checkbox" name="Musica" value="pop" id="Musica_0">
+			 Pop</label></td>
+		
+	</tr>
+	 
+	<tr> 
+		<td> <label>
+		<input type="checkbox" name="Musica" value="Rock" id="Musica_1">
+			 Rock</label></td>
+		
+	</tr>
+		
+	<tr> 
+		<td> <label>
+		<input type="checkbox" name="Musica" value="Clasica" id="Musica_2">
+			 Clasica</label></td>
+		
+	</tr>
+		
+	<tr> 
+		<td> <label>
+		<input type="checkbox" name="Musica" value="Jazz" id="Musica_3">
+			 Jazz</label></td>
+		
+	</tr>
+		
+	<tr> 
+		<td> <label>
+		<input type="checkbox" name="Musica" value="Metal" id="Musica_3">
+			 Metal</label></td>
+		
+	</tr>
+		
+	</table>	
+      
+		
+	<br>
+      
+      	<input name="boton3" type="submit" class="btt" value="Enviar"> <input type="reset" class="btt">
+    </form>
+      &nbsp;
+    </form>
+</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore culpa officiis ullam optio quidem! Deserunt cum libero voluptatum aperiam facere.</p>
+    <form id="form3" name="form3" method="post">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+	<br>
+		<br>
+		
+      <label for="textarea">Comentario:</label>
+		
+		<br><br>
+      <textarea name="textarea" cols="30" rows="20" maxlength="100" autofocus="autofocus" id="textarea">Escribe aquí tu comentario...</textarea>
+		<br>
+      <input name="boton3" type="submit" class="btt" value="Enviar">
+      
+    </form>
+  </section>
+  <section>
+    <h2>Formulario para registrarte </h2>
+    <form id="form4" name="form4" method="post">
+		
+		<label for="fname">Nombre:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname">Apellido:</label><br>
+  <input type="text" id="lname" name="lname" value="">
+		
+		<br><br>
+   <label for="phone">Numero telefonico:</label>
+ <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+ 
+		<br><br>
+		
+		<label for="select">Pais:</label>
+     	<select name="select" id="select">
+        <option value="mx">México</option>
+        <option value="es">España</option>
+        <option value="us">Estados Unidos</option>
+        <option value="ar">Argentina</option>
+        <option value="co">Colombia</option>
+     	</select>
+		
+		<br><br>
+		
+		<label for="bdaymonth">Fecha de nacimiento:</label>
+		<input type="month" id="bdaymonth" name="bdaymonth">
+		
+		<br><br>
+
+      	<label for="email">Email:</label>
+ 		<input type="email" id="email" name="email">
+		
+		<br><br>
+		
+		<label for="myfile">Selecciona un documento</label>
+  		<input type="file" id="myfile" name="myfile">
+		<br><br>
+		
+		<label for="favcolor">Selecciona tu color favorito:</label>
+  		<input type="color" id="favcolor" name="favcolor">
+		<br><br>
+		
+      	<label for="textarea">Comentario:</label>
+		
+		<br><br>
+     	<textarea name="textarea" cols="30" rows="20" maxlength="100" autofocus="autofocus" class="coment" id="textarea">Escribe aquí tu comentario...</textarea>
+		<br>
+		
+		
+      	<input name="boton3" type="submit" class="btt" value="Enviar"> <input type="reset" class="btt">
+    </form>
+	  
+	  
+	  
+	  
+	  
+	  
+  </section>
+	
+	
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Madai Sunem Briones Gómez</h6>
+&nbsp;</footer>
+</body>
+</html>
